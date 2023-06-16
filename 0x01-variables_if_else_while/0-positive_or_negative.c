@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Determine if number is positive or negative.
+ * main - entry point 
  *
  * Return : Always 0 (Success)
  */
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if(n == 0)
 	{
-		printf("%d is null/n", n);
+		printf("%d is zero/n", n);
 	}
 
 	else 
