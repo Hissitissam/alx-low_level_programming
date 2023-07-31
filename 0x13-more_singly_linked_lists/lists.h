@@ -1,5 +1,5 @@
-#ifndef IISTS_H
-#define IISTS_H
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
