@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
  * read_textfile- Reads a text file and print to STDOUT.
@@ -24,6 +23,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buffer);
 	close(f_descr);
-	return (i);
+	return (n);
 }
 
